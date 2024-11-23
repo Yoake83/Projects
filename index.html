@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Age-calculator</title>
+
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="top">
+  <div class="form">
+    <div class="input-container"><label for="number">Day 
+    </label>
+    <input type="number" placeholder="DD" id="days">
+   <small class="error-days"></small>  </div>
+   <div  class="input-container">
+    <label for="month">Month   </label>
+      <input type="number"  placeholder="MM" id="months">
+      <small class="error-months"></small></div>
+    <div  class="input-container">
+    <label for="Year">Year   </label>
+      <input type="number" placeholder="YYYY" id="Years">
+      <small class="error-years"></small></div> 
+      
+    </div>
+
+</div>
+<button class="submit-btn">
+  <img src="./assets/images/icon-arrow.svg"></button>
+<div class="bottom">
+  <h1><span class="output-years">--</span>Years</h1>
+  <h1><span class="output-months">--</span>Months</h1>
+  <h1><span class="output-days">--</span>Days</h1>
+</div>
+</div> 
+
+<script src="index.js"></script>
+</body>
+</html>

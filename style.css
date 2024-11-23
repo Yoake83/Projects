@@ -1,0 +1,101 @@
+@font-face {
+    font-family: My font;
+    src: url(./assets/fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+    font-family: My font2;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+body{
+margin-top: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: hsl(0, 0%, 94%);
+}
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    padding: 30px;
+   background-color: white;
+   flex-direction: column;
+   width:500px;
+   height: 360px;
+   border-radius: 20px 20px 150px 20px;
+   position: relative;
+}
+.top{
+    width: 30%;
+}
+.bottom{
+    width: 70%;
+}
+
+label{
+   
+    color:hsl(0, 0%, 86%);
+    font-family: My font2;
+
+}
+input{
+    color: hsl(0, 1%, 44%);
+    width: 70px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+ font-family: My font2;
+}
+h1{
+    font-family: My font;
+    margin: 2px;
+}
+span{
+    color: purple;
+}
+small{
+    color: red;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left:10px;
+}
+.submit-btn{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+display: flex;
+background-color:purple;
+justify-content: center;
+align-items: center;
+border: none;
+border-radius: 50%;
+position: absolute;
+right: 30px;
+top: 60px;
+cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: black;
+}
+.output span{
+    font-size: 2.75rem;
+   font-style: italic;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-left:10px ;
+    margin-bottom: 20px;
+}
+.form{
+display: flex;
+border-bottom: 2px solid var(--off-white);
+margin-bottom: 20px;
+}
+input:hover{
+    border: 2px solid purple;
+}
