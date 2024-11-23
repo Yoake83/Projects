@@ -1,0 +1,100 @@
+@font-face{
+    font-family: Myfont;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Myfont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(234,29%, 20%);
+}
+.container{
+    display: flex;
+background-color: white;
+border-radius: 20px;
+
+width: 800px;
+padding: 30px;
+}
+.right{
+    width:60%;
+  
+}
+.left{
+    width:40%
+}
+.left img{
+    width: 100%;
+}
+ul{
+    list-style-image: url(./assets/images/icon-success.svg);
+}
+li{
+    margin-bottom:7px;
+    color: hsl(235, 18%, 26%);
+}
+form{
+    display: flex;
+flex-direction: column;
+width: 300px;
+}
+label{
+    margin-bottom: 10px;
+    color:  hsl(235, 18%, 26%);
+}
+input{border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    font-family: inherit;
+    border: 1px solid hsl(231, 7%, 60%);
+    cursor: pointer;
+}
+button{ border-radius: 5px;
+    font-family: inherit;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color:white;
+    background-color: hsl(235, 18%, 26%);
+}
+h1{
+    font-size: 50px;
+    color: hsl(235, 18%, 26%);
+}
+p{
+    color:  hsl(235, 18%, 26%);
+}
+button:hover{
+    background-color: hsl(4, 100%, 67%);
+    
+    -webkit-box-shadow:0px 10px 6px -6px #777;
+    box-shadow:0px 10px 6px -6px #777 ;
+}
+.hide{
+    display: none;
+}
+.container-2{
+    background-color: white;
+    width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.container-2.h1{
+    font-size: 40px;
+}
+.icon-2{
+    width: 50px;
+}
+.container-2.button{
+    width:100% ;
+}
+@media{
+    
+}
